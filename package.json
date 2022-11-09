@@ -2,14 +2,15 @@
   "name": "action-append-pr-revision",
   "version": "0.0.0",
   "description": "github action to append revision and package urls to prs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:nicksteffens/action-append-pr-revision.git",
   "author": "Nick Steffens <nicksteffens@users.noreply.github.com>",
   "license": "MIT",
   "packageManager": "yarn@3.2.4",
   "scripts": {
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "build": "ncc build index.js --license licenses.txt"
   },
   "devDependencies": {
     "@actions/core": "^1.10.0",
