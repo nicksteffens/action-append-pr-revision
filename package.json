@@ -8,6 +8,8 @@
   "license": "MIT",
   "packageManager": "yarn@3.2.4",
   "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
     "husky": "^8.0.2",
     "pinst": "^3.0.0"
   }
