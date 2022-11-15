@@ -2,7 +2,7 @@
   "name": "action-append-pr-revision",
   "version": "1.0.0",
   "description": "github action to append revision and package urls to prs",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": "git@github.com:nicksteffens/action-append-pr-revision.git",
   "author": "Nick Steffens <nicksteffens@users.noreply.github.com>",
   "license": "MIT",
