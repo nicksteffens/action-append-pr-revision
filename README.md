@@ -1,4 +1,7 @@
+:warning: This is now archived in favor of [nicksteffens/action-append-deployed-revision-link](https://github.com/nicksteffens/action-append-deployed-revision-link) :warning:
+
 # action-append-pr-revision
+
 `nicksteffens/action-append-pr-revision` action is Javascript action that appends a provided package with revision number `[${packageName_revision=${revision}](${url}?${packageName}_revision=${revision})` to the PR description. The following scenarios are possible with this action:
 1. Appends revision link if non exist
 2. Updates the specific package's revision link if one exists
